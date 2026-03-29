@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>NexusHub – Home Dashboard</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet"/>
+
+<link rel="stylesheet" href="../css/global.css"/>
+<link rel="stylesheet" href="../css/pages/dashboard.css"/>
+</head>
+<body>
+
+<!-- ─── SIDEBAR ─── -->
+<aside class="sidebar">
+  <div class="sidebar-logo">
+    <div class="logo-icon">⬡</div>
+    <span class="logo-name">NexusHub</span>
+  </div>
+
+  <div class="nav-section">
+    <div class="nav-label">Menu</div>
+    <a href="dashboard.html" class="nav-item active"><span class="nav-icon">🏠</span> Home</a>
+    <a href="discovery.html" class="nav-item"><span class="nav-icon">🔍</span> Discover</a>
+    <a href="events.html" class="nav-item"><span class="nav-icon">📅</span> Events <span class="nav-badge gold">3</span></a>
+    <a href="chat.html" class="nav-item"><span class="nav-icon">💬</span> Messages <span class="nav-badge">12</span></a>
+    <a href="#" class="nav-item"><span class="nav-icon">🔔</span> Notifications <span class="nav-badge">5</span></a>
+    <a href="profile-settings.html" class="nav-item"><span class="nav-icon">⚙️</span> Settings</a>
+  </div>
+
+  <div class="nav-section pb-6">
+    <div class="nav-label">My Communities</div>
+  </div>
+  <div class="comm-list">
+    <div class="comm-item">
+      <div class="comm-avatar grad-purple">⚡</div>
+      <div class="comm-info"><div class="comm-name">Dev Nexus</div><div class="comm-sub">2.4k members</div></div>
+      <div class="comm-dot bg-dot-green"></div>
+    </div>
+    <div class="comm-item">
+      <div class="comm-avatar grad-orange">🎨</div>
+      <div class="comm-info"><div class="comm-name">Design Vault</div><div class="comm-sub">1.1k members</div></div>
+      <div class="comm-dot bg-dot-green"></div>
+    </div>
+    <div class="comm-item">
+      <div class="comm-avatar grad-cyan">🎮</div>
+      <div class="comm-info"><div class="comm-name">GameZone</div><div class="comm-sub">8.7k members</div></div>
+      <div class="comm-dot bg-dot-orange"></div>
+    </div>
+    <div class="comm-item">
+      <div class="comm-avatar grad-green">🌿</div>
+      <div class="comm-info"><div class="comm-name">EcoBuilders</div><div class="comm-sub">540 members</div></div>
+      <div class="comm-dot bg-dot-gray"></div>
+    </div>
+    <div class="comm-item">
+      <div class="comm-avatar grad-pink">🎵</div>
+      <div class="comm-info"><div class="comm-name">SoundWave</div><div class="comm-sub">3.2k members</div></div>
+      <div class="comm-dot bg-dot-green"></div>
+    </div>
+    <div class="comm-item">
+      <div class="comm-avatar grad-violet">📚</div>
+      <div class="comm-info"><div class="comm-name">BookClub Pro</div><div class="comm-sub">920 members</div></div>
+      <div class="comm-dot bg-dot-gray"></div>
+    </div>
+  </div>
+
+  <div class="sidebar-footer">
+    <div class="user-avatar">AM</div>
+    <div class="user-info">
+      <div class="user-name">Alex Morgan</div>
+      <div class="user-status">Online</div>
+    </div>
+    <span class="fs-14 c-text-3">⋯</span>
+  </div>
+</aside>
+
+<!-- ─── MAIN ─── -->
+<div class="main">
+  <!-- Header -->
+  <header class="header">
+    <div class="header-title">Home</div>
+    <div class="header-search">
+      <span>🔍</span>
+      <input type="text" placeholder="Search communities, people, events…"/>
+    </div>
+    <div class="header-actions">
+      <div class="icon-btn">🔔<div class="notif-dot"></div></div>
+      <div class="icon-btn">📬</div>
+      <div class="header-avatar">AM</div>
+    </div>
+  </header>
+
+  <!-- Content -->
+  <div class="content">
+
+    <!-- Greeting Banner -->
+    <div class="greeting">
+      <div class="greeting-text">
+        <div class="greeting-name">Good afternoon, Alex 👋</div>
+        <div class="greeting-sub">You have 12 unread messages and 3 upcoming events today.</div>
+      </div>
+      <div class="greeting-stats">
+        <div class="g-stat"><div class="g-stat-val">6</div><div class="g-stat-label">Communities</div></div>
+        <div class="g-stat"><div class="g-stat-val">12</div><div class="g-stat-label">Messages</div></div>
+        <div class="g-stat"><div class="g-stat-val">3</div><div class="g-stat-label">Events</div></div>
+      </div>
+    </div>
+
+    <!-- Joined Communities -->
+    <div>
+      <div class="section-header">
+        <div class="section-title">Joined Communities</div>
+        <div class="section-link">View all →</div>
+      </div>
+      <div class="communities-scroll">
+        <div class="comm-card delay-05">
+          <div class="comm-card-banner banner-purple">
+            <div class="comm-card-icon grad-purple">⚡</div>
+          </div>
+          <div class="comm-card-name">Dev Nexus</div>
+          <div class="comm-card-meta"><span>2,451 members</span><span class="unread-pill">4</span></div>
+        </div>
+        <div class="comm-card delay-10">
+          <div class="comm-card-banner banner-orange">
+            <div class="comm-card-icon grad-orange">🎨</div>
+          </div>
+          <div class="comm-card-name">Design Vault</div>
+          <div class="comm-card-meta"><span>1,120 members</span><span class="unread-pill">8</span></div>
+        </div>
+        <div class="comm-card delay-15">
+          <div class="comm-card-banner banner-cyan">
+            <div class="comm-card-icon grad-cyan">🎮</div>
+          </div>
+          <div class="comm-card-name">GameZone</div>
+          <div class="comm-card-meta"><span>8,712 members</span></div>
+        </div>
+        <div class="comm-card delay-20">
+          <div class="comm-card-banner banner-green">
+            <div class="comm-card-icon grad-green">🌿</div>
+          </div>
+          <div class="comm-card-name">EcoBuilders</div>
+          <div class="comm-card-meta"><span>540 members</span></div>
+        </div>
+        <div class="comm-card delay-25">
+          <div class="comm-card-banner banner-pink">
+            <div class="comm-card-icon grad-pink">🎵</div>
+          </div>
+          <div class="comm-card-name">SoundWave</div>
+          <div class="comm-card-meta"><span>3,210 members</span><span class="unread-pill">1</span></div>
+        </div>
+        <div class="comm-card delay-30">
+          <div class="comm-card-banner banner-violet">
+            <div class="comm-card-icon grad-violet">📚</div>
+          </div>
+          <div class="comm-card-name">BookClub Pro</div>
+          <div class="comm-card-meta"><span>920 members</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Recommended Communities -->
+    <div>
+      <div class="section-header">
+        <div class="section-title">Recommended for You</div>
+        <div class="section-link">Browse all →</div>
+      </div>
+      <div class="rec-grid">
+        <div class="rec-card delay-10">
+          <div class="rec-card-top">
+            <div class="rec-icon rec-bg-red">🚀</div>
+            <div class="rec-info"><div class="rec-name">Startup Founders</div><div class="rec-cat">Business · Entrepreneurship</div></div>
+          </div>
+          <div class="rec-desc">A tight-knit community for startup founders to share challenges, wins, and resources.</div>
+          <div class="rec-footer">
+            <div class="rec-members">👥 15.2k members</div>
+            <button class="btn-join" onclick="toggleJoin(this)">Join</button>
+          </div>
+        </div>
+        <div class="rec-card delay-15">
+          <div class="rec-card-top">
+            <div class="rec-icon rec-bg-cyan">🤖</div>
+            <div class="rec-info"><div class="rec-name">AI & ML Hub</div><div class="rec-cat">Technology · Research</div></div>
+          </div>
+          <div class="rec-desc">Cutting-edge discussions on artificial intelligence, machine learning models and deployments.</div>
+          <div class="rec-footer">
+            <div class="rec-members">👥 42.7k members</div>
+            <button class="btn-join" onclick="toggleJoin(this)">Join</button>
+          </div>
+        </div>
+        <div class="rec-card delay-20">
+          <div class="rec-card-top">
+            <div class="rec-icon rec-bg-orange">📸</div>
+            <div class="rec-info"><div class="rec-name">Lens & Light</div><div class="rec-cat">Photography · Art</div></div>
+          </div>
+          <div class="rec-desc">Share your photography, get feedback, and learn from a community of passionate visual storytellers.</div>
+          <div class="rec-footer">
+            <div class="rec-members">👥 9.1k members</div>
+            <button class="btn-join" onclick="toggleJoin(this)">Join</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Two Column: Notifications + Events -->
+    <div class="two-col">
+
+      <!-- Notifications -->
+      <div class="section-box">
+        <div class="section-header">
+          <div class="section-title">🔔 Recent Notifications</div>
+          <div class="section-link">Mark all read</div>
+        </div>
+        <div class="notif-list">
+          <div class="notif-item unread">
+            <div class="notif-avatar grad-purple">JK</div>
+            <div class="notif-body">
+              <div class="notif-text"><strong>Jake Kim</strong> <span>reacted ❤️ to your message in</span> <strong>#general</strong></div>
+              <div class="notif-time">2 minutes ago</div>
+            </div>
+            <div class="notif-unread-dot"></div>
+          </div>
+          <div class="notif-item unread">
+            <div class="notif-avatar grad-green">SL</div>
+            <div class="notif-body">
+              <div class="notif-text"><strong>Sara Lee</strong> <span>invited you to</span> <strong>AI & ML Hub</strong></div>
+              <div class="notif-time">18 minutes ago</div>
+            </div>
+            <div class="notif-unread-dot"></div>
+          </div>
+          <div class="notif-item unread">
+            <div class="notif-avatar grad-pink">🎵</div>
+            <div class="notif-body">
+              <div class="notif-text"><strong>SoundWave</strong> <span>posted a new event: </span><strong>Beat Battle Night</strong></div>
+              <div class="notif-time">1 hour ago</div>
+            </div>
+            <div class="notif-unread-dot"></div>
+          </div>
+          <div class="notif-item">
+            <div class="notif-avatar grad-orange">MP</div>
+            <div class="notif-body">
+              <div class="notif-text"><strong>Mia Park</strong> <span>mentioned you in</span> <strong>#design-feedback</strong></div>
+              <div class="notif-time">3 hours ago</div>
+            </div>
+          </div>
+          <div class="notif-item">
+            <div class="notif-avatar grad-violet">⚡</div>
+            <div class="notif-body">
+              <div class="notif-text"><strong>Dev Nexus</strong> <span>channel </span><strong>#releases</strong><span> has 5 new messages</span></div>
+              <div class="notif-time">5 hours ago</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Upcoming Events -->
+      <div>
+        <div class="section-header">
+          <div class="section-title">📅 Upcoming Events</div>
+          <div class="section-link">View all →</div>
+        </div>
+        <div class="event-list">
+          <div class="event-card">
+            <div class="event-date-box"><div class="event-month">Mar</div><div class="event-day">07</div></div>
+            <div class="event-info">
+              <div class="event-name">Dev Nexus Hackathon</div>
+              <div class="event-meta">
+                <span class="event-tag">🕐 2:00 PM</span>
+                <span class="event-tag">🌐 Online</span>
+              </div>
+            </div>
+            <button class="btn-event">View</button>
+          </div>
+          <div class="event-card">
+            <div class="event-date-box"><div class="event-month">Mar</div><div class="event-day">10</div></div>
+            <div class="event-info">
+              <div class="event-name">UI Design Workshop</div>
+              <div class="event-meta">
+                <span class="event-tag">🕐 5:00 PM</span>
+                <span class="event-tag">📍 Chennai</span>
+              </div>
+            </div>
+            <button class="btn-event">View</button>
+          </div>
+          <div class="event-card">
+            <div class="event-date-box"><div class="event-month">Mar</div><div class="event-day">14</div></div>
+            <div class="event-info">
+              <div class="event-name">Beat Battle Night</div>
+              <div class="event-meta">
+                <span class="event-tag">🕐 8:00 PM</span>
+                <span class="event-tag">🌐 Online</span>
+              </div>
+            </div>
+            <button class="btn-event">View</button>
+          </div>
+          <div class="event-card">
+            <div class="event-date-box"><div class="event-month">Mar</div><div class="event-day">18</div></div>
+            <div class="event-info">
+              <div class="event-name">AI Research Meetup</div>
+              <div class="event-meta">
+                <span class="event-tag">🕐 3:30 PM</span>
+                <span class="event-tag">📍 Bangalore</span>
+              </div>
+            </div>
+            <button class="btn-event">View</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script src="../js/pages/dashboard.js"></script>
+</body>
+</html>

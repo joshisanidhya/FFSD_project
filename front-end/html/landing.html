@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1.0" name="viewport"/>
+<title>NexusHub — Where Communities Come Alive</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&amp;family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&amp;display=swap" rel="stylesheet"/>
+<link href="../css/global.css" rel="stylesheet"/>
+<link href="../css/pages/landing.css" rel="stylesheet"/>
+</head>
+<body>
+<canvas id="stars"></canvas>
+<!-- NAV -->
+<nav id="nav">
+<div class="nav-logo">
+<div class="nav-hex">N</div>
+    NexusHub
+  </div>
+<div class="nav-links">
+<a class="nav-link" href="#features">Features</a>
+<a class="nav-link" href="#how">How it works</a>
+<a class="nav-link" href="#pricing">Pricing</a>
+<a class="nav-link" href="#community">Community</a>
+</div>
+<div class="nav-r">
+<button class="btn-ghost">Sign in</button>
+<button class="btn-cta">Get started free</button>
+</div>
+</nav>
+<!-- HERO -->
+<section class="hero">
+<div class="hero-grid"></div>
+<div class="hero-inner">
+<div class="hero-l">
+<div class="hero-eyebrow">
+<div class="ey-dot"></div>
+        Now in public beta · 148K+ members
+      </div>
+<h1 class="hero-h1">
+<span class="line l1"><span>Where great</span></span>
+<span class="line l2"><span><span class="grad-txt">communities</span></span></span>
+<span class="line l3"><span>come alive.</span></span>
+</h1>
+<p class="hero-sub">NexusHub brings together developers, creators, and thinkers into living, breathing communities — with real-time chat, events, and tools built for serious collaboration.</p>
+<div class="hero-btns">
+<button class="btn-hero">Start for free →</button>
+<button class="btn-hero-g">Watch demo ▶</button>
+</div>
+<div class="hero-stat-row">
+<div class="hstat"><div class="hstat-val" id="c-users">0</div><div class="hstat-lbl">Members worldwide</div></div>
+<div class="hstat"><div class="hstat-val" id="c-comms">0</div><div class="hstat-lbl">Active communities</div></div>
+<div class="hstat"><div class="hstat-val" id="c-msgs">0</div><div class="hstat-lbl">Messages per day</div></div>
+</div>
+</div>
+<div class="hero-r">
+<div class="float-badge fb1 u-extracted-123">
+<span>✦</span> <span>+847 joined today</span>
+</div>
+<div class="float-badge fb2">
+        🔴 <span>Dev Nexus is live</span>
+</div>
+<div class="float-badge fb3 u-extracted-259">
+        🏆 <span>Hackathon starting soon</span>
+</div>
+<div class="mockup-wrap">
+<div class="mockup">
+<div class="mk-bar">
+<div class="mk-dot u-extracted-101"></div>
+<div class="mk-dot u-extracted-260"></div>
+<div class="mk-dot u-extracted-261"></div>
+<div class="mk-bar-title">NexusHub</div>
+</div>
+<div class="mk-body">
+<div class="mk-sb">
+<div class="mk-sb-logo"><div class="mk-sb-hex"></div>NexusHub</div>
+<div class="mk-ni on">🏠 Home</div>
+<div class="mk-ni">🔍 Discover</div>
+<div class="mk-ni">📅 Events</div>
+<div class="mk-ni">💬 Messages</div>
+<div class="mk-ni u-extracted-262">⚙ Settings</div>
+</div>
+<div class="mk-main">
+<div class="mk-hdr">🔥 Trending Communities</div>
+<div class="mk-card">
+<div class="mk-card-title">Dev Nexus <span class="mk-badge u-extracted-263">🟢 Live</span></div>
+                Realtime discussions on web dev and open source
+                <div class="mk-av-row">
+<div class="mk-av u-extracted-113">A</div>
+<div class="mk-av u-extracted-264">K</div>
+<div class="mk-av bg-dot-green">M</div>
+<div class="mk-av bg-dot-orange">J</div>
+</div>
+<div class="mk-prog"><div class="mk-prog-fill u-extracted-265"></div></div>
+</div>
+<div class="mk-card">
+<div class="mk-card-title">Design Studio <span class="mk-badge u-extracted-266">Event</span></div>
+                Weekly UI crits and design sprints
+              </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- LOGOS -->
+<div class="logos">
+<div class="logos-inner">
+<span class="logos-label">Trusted by teams at</span>
+<div class="u-extracted-267">
+<div class="logos-track">
+<span class="logo-chip">Vercel</span><span class="logo-chip">Figma</span><span class="logo-chip">Notion</span><span class="logo-chip">Linear</span><span class="logo-chip">Supabase</span><span class="logo-chip">Railway</span><span class="logo-chip">PlanetScale</span><span class="logo-chip">Framer</span>
+<span class="logo-chip">Vercel</span><span class="logo-chip">Figma</span><span class="logo-chip">Notion</span><span class="logo-chip">Linear</span><span class="logo-chip">Supabase</span><span class="logo-chip">Railway</span><span class="logo-chip">PlanetScale</span><span class="logo-chip">Framer</span>
+</div>
+</div>
+</div>
+</div>
+<!-- FEATURES -->
+<section class="features" id="features">
+<div class="section-inner">
+<div class="reveal">
+<div class="section-eyebrow">Features</div>
+<h2 class="section-h2">Everything your<br/>community needs.</h2>
+<p class="section-sub">Built by community builders, for community builders — every feature is designed to deepen connection and drive engagement.</p>
+</div>
+<div class="feat-grid reveal reveal-d1">
+<div class="feat-card">
+<div class="feat-ico">💬</div>
+<div class="feat-title">Real-time Channels</div>
+<div class="feat-desc">Organised topic channels with threading, reactions, code blocks, and live presence indicators. Never lose context.</div>
+<div class="feat-link">Explore channels →</div>
+</div>
+<div class="feat-card">
+<div class="feat-ico">📅</div>
+<div class="feat-title">Events &amp; Hackathons</div>
+<div class="feat-desc">Host live events, AMAs, hackathons and workshops. Built-in RSVP, reminders, and post-event recaps.</div>
+<div class="feat-link">See events →</div>
+</div>
+<div class="feat-card">
+<div class="feat-ico">🔍</div>
+<div class="feat-title">Community Discovery</div>
+<div class="feat-desc">Intelligent recommendations surface the right communities based on your interests, activity, and network.</div>
+<div class="feat-link">Discover now →</div>
+</div>
+<div class="feat-card">
+<div class="feat-ico">🛡</div>
+<div class="feat-title">Moderation Suite</div>
+<div class="feat-desc">AI-assisted AutoMod, appeal workflows, structured reporting — keep communities safe without the toil.</div>
+<div class="feat-link">Learn more →</div>
+</div>/**
+ * Utility functions for formatting, security, and global UI elements.
+ */
+
+// 1. TIME AND DATE FORMATTING
+// ------------------------------------------------------------------
+
+/**
+ * Formats a standard date string into a readable format.
+ * Example: '2026-04-15' -> 'April 15, 2026'
+ */
+export function formatEventDate(dateString) {
+    const options = { year: 'numeric', month: 'long', day: 'numeric' };
+    const date = new Date(dateString);
+    return date.toLocaleDateString(undefined, options);
+}
+
+/**
+ * Gets the current time in a short, readable format for chat.
+ * Example: '6:30 PM'
+ */
+export function getCurrentShortTime() {
+    return new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+}
+
+
+// 2. SECURITY (CRITICAL FOR CHAT APPS)
+// ------------------------------------------------------------------
+
+/**
+ * Escapes HTML characters to prevent Cross-Site Scripting (XSS).
+ * You should wrap user inputs in this before injecting them into the DOM.
+ */
+export function escapeHTML(unsafeString) {
+    if (!unsafeString) return "";
+    return unsafeString
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+}
+
+
+// 3. UI HELPERS (TOAST NOTIFICATIONS)
+// ------------------------------------------------------------------
+
+/**
+ * Creates a temporary popup notification on the screen.
+ * Replaces standard browser alert() boxes for a modern look.
+ * * @param {string} message - The message to display.
+ * @param {string} type - 'success', 'error', or 'info'.
+ */
+export function showToast(message, type = 'info') {
+    // Check if a toast container exists, if not, create one
+    let container = document.getElementById('toast-container');
+    if (!container) {
+        container = document.createElement('div');
+        container.id = 'toast-container';
+        // Basic inline styles so it works without requiring extra CSS files
+        Object.assign(container.style, {
+            position: 'fixed',
+            bottom: '20px',
+            right: '20px',
+            zIndex: '9999',
+            display: 'flex',
+            flexDirection: 'column',
+            gap: '10px'
+        });
+        document.body.appendChild(container);
+    }
+
+    // Create the toast element
+    const toast = document.createElement('div');
+    toast.className = `toast toast-${type}`;
+    toast.textContent = message;
+
+    // Style the toast based on the type
+    let bgColor = '#333'; // default info
+    if (type === 'success') bgColor = '#4CAF50';
+    if (type === 'error') bgColor = '#F44336';
+
+    Object.assign(toast.style, {
+        backgroundColor: bgColor,
+        color: 'white',
+        padding: '12px 20px',
+        borderRadius: '5px',
+        boxShadow: '0 4px 6px rgba(0,0,0,0.1)',
+        fontFamily: 'sans-serif',
+        fontSize: '14px',
+        opacity: '0',
+        transition: 'opacity 0.3s ease-in-out',
+        minWidth: '250px'
+    });
+
+    container.appendChild(toast);
+
+    // Fade in
+    requestAnimationFrame(() => {
+        toast.style.opacity = '1';
+    });
+
+    // Remove after 3 seconds
+    setTimeout(() => {
+        toast.style.opacity = '0';
+        setTimeout(() => toast.remove(), 300); // Wait for fade out animation
+    }, 3000);
+}
+<div class="feat-card">
+<div class="feat-ico">📊</div>
+<div class="feat-title">Manager Analytics</div>
+<div class="feat-desc">Deep engagement metrics, growth funnels, and retention data give community managers clear, actionable insights.</div>
+<div class="feat-link">View analytics →</div>
+</div>
+<div class="feat-card">
+<div class="feat-ico">⚡</div>
+<div class="feat-title">Integrations</div>
+<div class="feat-desc">Connect GitHub, Figma, Notion, Linear and 40+ tools. Surface context where your community already works.</div>
+<div class="feat-link">Browse integrations →</div>
+</div>
+</div>
+</div>
+</section>
+<!-- HOW IT WORKS -->
+<section class="how" id="how">
+<div class="section-inner">
+<div class="reveal">
+<div class="section-eyebrow">How it works</div>
+<h2 class="section-h2">Up and running<br/>in minutes.</h2>
+</div>
+<div class="how-grid">
+<div class="steps reveal reveal-d1" id="steps">
+<div class="step on" onclick="setStep(this,0)">
+<div class="step-n">01</div>
+<div class="step-body">
+<div class="step-title">Create your community</div>
+<div class="step-desc">Choose a name, set your focus, and configure roles and channels in under 2 minutes. No technical setup required.</div>
+</div>
+</div>
+<div class="step" onclick="setStep(this,1)">
+<div class="step-n">02</div>
+<div class="step-body">
+<div class="step-title">Invite your people</div>
+<div class="step-desc">Share a link, embed a widget, or sync with your existing audience. Members join with one click.</div>
+</div>
+</div>
+<div class="step" onclick="setStep(this,2)">
+<div class="step-n">03</div>
+<div class="step-body">
+<div class="step-title">Host your first event</div>
+<div class="step-desc">Schedule an AMA, a code sprint, or a workshop. NexusHub handles RSVPs, reminders, and the live experience.</div>
+</div>
+</div>
+<div class="step" onclick="setStep(this,3)">
+<div class="step-n">04</div>
+<div class="step-body">
+<div class="step-title">Grow with analytics</div>
+<div class="step-desc">Track engagement, retention, and member growth. Use smart suggestions to keep momentum going.</div>
+</div>
+</div>
+</div>
+<div class="how-visual reveal reveal-d2">
+<div class="hw-card">
+<div class="u-extracted-268">
+            Discover Communities
+            <span class="u-extracted-269">3,247 total</span>
+</div>
+<div class="u-extracted-270">
+<span class="u-extracted-271">Technology</span>
+<span class="u-extracted-272">Design</span>
+<span class="u-extracted-272">Gaming</span>
+<span class="u-extracted-272">Education</span>
+</div>
+<div class="hw-bar"><div class="hw-bar-fill"></div></div>
+<div class="hw-comm-list">
+<div class="hw-ci">
+<div class="hw-ci-ico u-extracted-105">⚡</div>
+<div class="hw-ci-info"><div class="hw-ci-name">Dev Nexus</div><div class="hw-ci-meta">12.4k members · Technology</div></div>
+<button class="hw-ci-btn joined">✓ Joined</button>
+</div>
+<div class="hw-ci">
+<div class="hw-ci-ico u-extracted-273">🎨</div>
+<div class="hw-ci-info"><div class="hw-ci-name">Design Studio</div><div class="hw-ci-meta">8.2k members · Design</div></div>
+<button class="hw-ci-btn" onclick="this.classList.add('joined');this.textContent='✓ Joined'">Join</button>
+</div>
+<div class="hw-ci">
+<div class="hw-ci-ico u-extracted-107">🌱</div>
+<div class="hw-ci-info"><div class="hw-ci-name">Open Source Hub</div><div class="hw-ci-meta">6.8k members · Technology</div></div>
+<button class="hw-ci-btn" onclick="this.classList.add('joined');this.textContent='✓ Joined'">Join</button>
+</div>
+<div class="hw-ci">
+<div class="hw-ci-ico u-extracted-109">🏆</div>
+<div class="hw-ci-info"><div class="hw-ci-name">Hackathon HQ</div><div class="hw-ci-meta">5.1k members · Events</div></div>
+<button class="hw-ci-btn" onclick="this.classList.add('joined');this.textContent='✓ Joined'">Join</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- TESTIMONIALS -->
+<section class="testi" id="community">
+<div class="section-inner">
+<div class="reveal u-extracted-274">
+<div class="section-eyebrow u-extracted-192">Testimonials</div>
+<h2 class="section-h2 u-extracted-192">Loved by community<br/>builders worldwide.</h2>
+</div>
+<div class="testi-grid">
+<div class="tcard reveal reveal-d1">
+<div class="tcard-stars">⭐⭐⭐⭐⭐</div>
+<div class="tcard-text">"NexusHub replaced four separate tools for us. The <em>real-time channels and events</em> work perfectly together — our community engagement went up 3×."</div>
+<div class="tcard-user"><div class="tc-av u-extracted-275">MK</div><div><div class="tc-name">Maya Krishnan</div><div class="tc-role">Founder, DevCircle</div></div></div>
+</div>
+<div class="tcard reveal reveal-d2">
+<div class="tcard-stars">⭐⭐⭐⭐⭐</div>
+<div class="tcard-text">"The moderation tools are genuinely <em>the best I've used anywhere</em>. AutoMod catches 97% of issues before they escalate. Our mods can finally breathe."</div>
+<div class="tcard-user"><div class="tc-av u-extracted-276">JL</div><div><div class="tc-name">James Liu</div><div class="tc-role">Community Lead, Scale AI</div></div></div>
+</div>
+<div class="tcard reveal reveal-d3">
+<div class="tcard-stars">⭐⭐⭐⭐⭐</div>
+<div class="tcard-text">"We ran our first hackathon on NexusHub with <em>400 participants</em> and zero issues. The event infrastructure is rock solid."</div>
+<div class="tcard-user"><div class="tc-av u-extracted-277">SP</div><div><div class="tc-name">Sofia Petrov</div><div class="tc-role">CTO, Buildspace</div></div></div>
+</div>
+</div>
+</div>
+</section>
+<!-- PRICING -->
+<section class="pricing" id="pricing">
+<div class="section-inner">
+<div class="reveal u-extracted-192">
+<div class="section-eyebrow u-extracted-192">Pricing</div>
+<h2 class="section-h2 u-extracted-192">Simple, transparent<br/>pricing.</h2>
+<p class="section-sub u-extracted-278">Start free. Scale when you're ready. No hidden fees, no surprise bills.</p>
+</div>
+<div class="price-grid">
+<div class="pcard reveal reveal-d1">
+<div class="p-tier">Starter</div>
+<div class="p-price">Free<span></span></div>
+<div class="p-sub">Up to 500 members</div>
+<div class="p-divider"></div>
+<div class="p-feature"><span class="p-check">✓</span>Up to 10 channels</div>
+<div class="p-feature"><span class="p-check">✓</span>Basic moderation tools</div>
+<div class="p-feature"><span class="p-check">✓</span>2 events per month</div>
+<div class="p-feature"><span class="p-check">✓</span>Community analytics</div>
+<div class="p-feature"><span class="p-x">—</span><span class="u-extracted-279">Advanced AutoMod</span></div>
+<div class="p-feature"><span class="p-x">—</span><span class="u-extracted-279">Custom domain</span></div>
+<button class="p-btn p-btn-g">Get started free</button>
+</div>
+<div class="pcard featured reveal reveal-d2">
+<div class="p-badge">POPULAR</div>
+<div class="p-tier">Pro</div>
+<div class="p-price">$29<span>/mo</span></div>
+<div class="p-sub">Up to 10,000 members</div>
+<div class="p-divider"></div>
+<div class="p-feature"><span class="p-check">✓</span>Unlimited channels</div>
+<div class="p-feature"><span class="p-check">✓</span>Advanced AutoMod (97.3% accuracy)</div>
+<div class="p-feature"><span class="p-check">✓</span>Unlimited events</div>
+<div class="p-feature"><span class="p-check">✓</span>Full analytics suite</div>
+<div class="p-feature"><span class="p-check">✓</span>Custom domain</div>
+<div class="p-feature"><span class="p-check">✓</span>Priority support</div>
+<button class="p-btn p-btn-p">Start 14-day trial</button>
+</div>
+<div class="pcard reveal reveal-d3">
+<div class="p-tier">Enterprise</div>
+<div class="p-price">Custom<span></span></div>
+<div class="p-sub">Unlimited members</div>
+<div class="p-divider"></div>
+<div class="p-feature"><span class="p-check">✓</span>Everything in Pro</div>
+<div class="p-feature"><span class="p-check">✓</span>SSO / SAML</div>
+<div class="p-feature"><span class="p-check">✓</span>Dedicated infrastructure</div>
+<div class="p-feature"><span class="p-check">✓</span>SLA guarantee (99.99%)</div>
+<div class="p-feature"><span class="p-check">✓</span>Custom integrations</div>
+<div class="p-feature"><span class="p-check">✓</span>Dedicated success manager</div>
+<button class="p-btn p-btn-g">Talk to sales</button>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA -->
+<section class="cta-section">
+<div class="section-inner">
+<div class="cta-box reveal">
+<h2 class="cta-h2">Ready to build your<br/><span class="grad-txt">community?</span></h2>
+<p class="cta-sub">Join 148,000+ members already on NexusHub. Free to start, no credit card required.</p>
+<div class="cta-btns">
+<button class="btn-hero">Create your community →</button>
+<button class="btn-hero-g">Talk to the team</button>
+</div>
+</div>
+</div>
+</section>
+<!-- FOOTER -->
+<footer>
+<div class="footer-inner">
+<div class="footer-top">
+<div class="ft-brand">
+<div class="logo-name"><div class="nav-hex u-extracted-280">N</div>NexusHub</div>
+<p>Where great communities come alive. Built for developers, creators, and thinkers who want to build something real together.</p>
+</div>
+<div class="ft-col">
+<h4>Product</h4>
+<span class="ft-link">Features</span>
+<span class="ft-link">Pricing</span>
+<span class="ft-link">Changelog</span>
+<span class="ft-link">Roadmap</span>
+<span class="ft-link">Status</span>
+</div>
+<div class="ft-col">
+<h4>Community</h4>
+<span class="ft-link">Discover</span>
+<span class="ft-link">Events</span>
+<span class="ft-link">Hackathons</span>
+<span class="ft-link">Blog</span>
+<span class="ft-link">Newsletter</span>
+</div>
+<div class="ft-col">
+<h4>Company</h4>
+<span class="ft-link">About</span>
+<span class="ft-link">Careers</span>
+<span class="ft-link">Privacy</span>
+<span class="ft-link">Terms</span>
+<span class="ft-link">Contact</span>
+</div>
+</div>
+<div class="footer-bot">
+<div class="footer-copy">© 2025 NexusHub, Inc. All rights reserved.</div>
+<div class="footer-socials">
+<div class="soc">𝕏</div>
+<div class="soc">in</div>
+<div class="soc">gh</div>
+<div class="soc">yt</div>
+</div>
+</div>
+</div>
+</footer>
+<script src="../js/pages/landing.js"></script>
+</body>
+</html>
